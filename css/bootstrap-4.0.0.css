@@ -596,13 +596,43 @@ pre code {
   overflow-y: scroll;
 }
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
- 
+
+
+.output {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+label {
+  font-size: .8rem;
+}
+
+label,
+input[type='image'] {
+  margin-top: 1rem;
+}
+
+input[type='image'] {
+  width: 20%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container_test .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container_test .btn:hover {
+  background-color: black;
 }
 
 @media (min-width: 576px) {
@@ -3913,6 +3943,7 @@ tbody.collapse.show {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  caret-color: #1e7e34;
 }
 
 .nav-tabs .nav-link {
@@ -9015,6 +9046,18 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
