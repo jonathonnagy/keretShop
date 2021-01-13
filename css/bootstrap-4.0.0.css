@@ -249,8 +249,9 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+  width: 300px; /* You can set the dimensions to whatever you want */
+    height: 300px;
+    object-fit: scale-down;
 }
 
 svg:not(:root) {
@@ -8978,7 +8979,8 @@ a.text-dark:hover, a.text-dark:focus {
   }
   tr,
   img {
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
+   
   }
   p,
   h2,
